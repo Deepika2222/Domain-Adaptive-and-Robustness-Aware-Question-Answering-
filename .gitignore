@@ -1,1 +1,10 @@
 .DS_Store
+
+# Local research datasets and downloader artifacts
+data/raw/**
+!data/raw/.gitkeep
+!data/raw/**/
+!data/raw/**/.gitkeep
+data/raw/**/*.part
+data/raw/**/*.parquet
+data/raw/**/*.json
