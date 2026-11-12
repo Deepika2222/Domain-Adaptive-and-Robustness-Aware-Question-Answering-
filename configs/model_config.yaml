@@ -1,0 +1,24 @@
+# Model configuration for QA experiments
+models:
+  primary:
+    - bert-base-uncased
+    - roberta-base
+    - microsoft/deberta-v3-base
+  optional:
+    - distilbert-base-uncased
+    - albert-base-v2
+
+task:
+  type: extractive_question_answering
+  max_sequence_length: 384
+  doc_stride: 128
+  max_answer_length: 30
+
+training_defaults:
+  learning_rate: 3e-5
+  weight_decay: 0.01
+  train_batch_size: 8
+  eval_batch_size: 8
+  num_train_epochs: 3
+  warmup_ratio: 0.1
+  seed: 42
