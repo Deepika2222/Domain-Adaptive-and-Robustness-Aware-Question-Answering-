@@ -1,0 +1,20 @@
+# Dataset configuration
+selection_status:
+  state: pending
+  notes: "Final benchmark and domain-specific datasets will be selected during project setup."
+
+datasets:
+  base_qa_dataset:
+    name: "TBD"
+    split: [train, validation]
+  domain_corpus:
+    name: "TBD"
+    purpose: "Domain adaptation pretraining/further pretraining"
+  adversarial_eval_set:
+    name: "TBD"
+    generation: "distractor_insertion | word_substitution | paraphrasing"
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  adversarial: data/adversarial

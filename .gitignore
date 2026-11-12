@@ -1,0 +1,54 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and local settings
+.env
+.env.*
+*.local
+
+# Logs
+logs/
+*.log
+
+# Data artifacts (keep structure via .gitkeep)
+data/raw/*
+data/processed/*
+data/adversarial/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/adversarial/.gitkeep
+
+# Model artifacts and outputs
+checkpoints/
+/models/
+outputs/
+wandb/
+mlruns/
+
+# Experiment/result artifacts (keep folder scaffolding)
+experiments/**/runs/
+experiments/**/logs/
+results/metrics/*
+results/plots/*
+results/comparison/*
+!results/metrics/.gitkeep
+!results/plots/.gitkeep
+!results/comparison/.gitkeep
+
+# IDE
+.vscode/
+.idea/

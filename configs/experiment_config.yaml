@@ -1,0 +1,34 @@
+# Experiment tracking configuration
+study:
+  name: domain-adaptive-robust-qa
+  objective: comparative_evaluation_of_bert_variants
+
+research_dimensions:
+  - domain_adaptation
+  - data_scarcity
+  - adversarial_robustness
+
+data_scarcity_levels:
+  - 1.0
+  - 0.5
+  - 0.2
+  - 0.1
+
+adversarial_strategies:
+  - distractor_insertion
+  - word_substitution
+  - paraphrasing
+
+metrics:
+  primary:
+    - exact_match
+    - f1
+  secondary:
+    - robustness_drop
+    - calibration_error
+
+output_dirs:
+  experiments: experiments
+  metrics: results/metrics
+  plots: results/plots
+  comparison: results/comparison
