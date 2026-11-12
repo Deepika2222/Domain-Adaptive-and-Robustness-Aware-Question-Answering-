@@ -1,0 +1,8 @@
+# Dataset sources and split/preprocessing settings will be defined after
+# dataset selection and licensing review.
+dataset_name: null
+domain: technical
+splits:
+  train: train
+  validation: validation
+  test: test

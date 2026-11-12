@@ -1,0 +1,10 @@
+# Model names and shared model settings will be defined here.
+models:
+  primary:
+    - bert-base-uncased
+    - roberta-base
+    - microsoft/deberta-base
+  optional:
+    - distilbert-base-uncased
+    - albert-base-v2
+task: extractive_question_answering

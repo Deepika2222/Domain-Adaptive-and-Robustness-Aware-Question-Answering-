@@ -1,0 +1,11 @@
+# Shared experiment defaults. These are placeholders, not executed settings.
+seed: 42
+data_fractions:
+  - 1.0
+  - 0.1
+  - 0.01
+research_dimensions:
+  - baseline
+  - domain_adaptation
+  - data_scarcity
+  - adversarial
