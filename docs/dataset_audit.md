@@ -172,3 +172,62 @@ These cases require further investigation before finalising the development prep
 The TechQA technical document corpus passed the initial integrity and quality checks. It is a promising resource for Domain-Adaptive Pretraining (DAPT), subject to further text cleaning and preprocessing.
 
 **Validation note:** This analysis covers the full 801,998-document corpus. The separate 50,000-document statistics are not included because they have not been reconciled with this full-corpus analysis.
+## SQuAD 2.0 Dataset Audit
+
+### 1. Dataset Overview
+
+SQuAD 2.0 (Stanford Question Answering Dataset) contains answerable and unanswerable questions based on provided text passages.
+
+**Dataset location:** `data/raw/squad_v2/`
+
+**Files inspected:**
+- `train/0000.parquet`
+- `validation/0000.parquet`
+
+### 2. Dataset Structure
+
+The dataset contains five columns:
+
+| Column | Description |
+|---|---|
+| `id` | Unique question identifier |
+| `title` | Article title |
+| `context` | Passage containing relevant information |
+| `question` | Question based on the passage |
+| `answers` | Answer text and character start position |
+
+### 3. Dataset Statistics
+
+| Metric | Training | Validation |
+|---|---:|---:|
+| Total questions | 130,319 | 11,873 |
+| Answerable | 86,821 | 5,928 |
+| Unanswerable | 43,498 | 5,945 |
+| Answerable (%) | 66.62% | 49.93% |
+| Unanswerable (%) | 33.38% | 50.07% |
+| Average question length | 9.89 words | 10.02 words |
+| Average context length | 119.61 words | 127.91 words |
+| Average answer length | 3.16 words | 3.06 words |
+| Duplicate question IDs | 0 | 0 |
+
+### 4. Validation Results
+
+| Validation check | Training | Validation |
+|---|---:|---:|
+| Missing values | 0 | 0 |
+| Invalid answer texts | 0 | 0 |
+| Invalid character offsets | 0 | 0 |
+
+All checked answer texts and character positions matched their corresponding contexts.
+
+### 5. Key Findings
+
+- Both training and validation splits contain answerable and unanswerable questions.
+- Training has a higher proportion of answerable questions.
+- Validation has an almost equal distribution of answerable and unanswerable questions.
+- No duplicate question IDs were detected.
+- All checked answer spans and offsets passed validation.
+
+### 6. Conclusion
+
+The SQuAD 2.0 dataset passed the initial structural inspection, statistical analysis and answer-span validation checks. It is suitable to proceed to the next stage of preprocessing, subject to the project's preprocessing and quality-control requirements.
