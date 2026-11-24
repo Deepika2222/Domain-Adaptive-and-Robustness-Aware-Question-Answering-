@@ -2,3 +2,9 @@
 
 # Local research datasets and downloader artifacts
 
+# TechQA dataset - keep local, don't push to GitHub
+data/raw/TechQA/
+data/raw/techqa/
+
+# Processed datasets
+data/processed/
