@@ -119,3 +119,56 @@ Across all downloaded files, **35,240 distinct question strings** occur in more 
 2. Keep AdversarialQA configurations separate in experiments and report overlap/deduplication policy.
 3. Obtain an authorized TechQA release before claiming technical-domain adaptation or technical-domain extractive QA results.
 4. Preserve these Parquet files as raw inputs and perform any normalization only into `data/processed/`.
+FOR TECHQA DATASET DETAILS 
+### TechQA Development Answer Alignment Validation
+
+**Total development questions:** 310  
+**Answerable questions checked:** 160
+
+| Validation metric | Result |
+|---|---:|
+| Missing documents | 0 |
+| Missing candidate document IDs | 0 |
+| Invalid offsets | 0 |
+| Exact answer mismatches | 11 |
+| Whitespace-only differences | 2 |
+| Content differences | 9 |
+
+**Conclusion:**
+
+All 160 answerable development questions reference existing supporting documents and have valid character-offset boundaries. However, 11 answer spans do not exactly match their stored answers.
+
+Two cases are whitespace-related, while nine show content or formatting differences.
+
+These cases require further investigation before finalising the development preprocessing strategy. Original dataset annotations will remain unchanged.
+### TechQA Corpus Analysis
+
+**Corpus:** `full_technote_collection.txt.bz2`
+
+#### Corpus Statistics
+
+- **Total documents:** 801,998
+- **Empty documents:** 2
+- **Duplicate document IDs:** 0
+- **Missing document IDs:** 0
+- **Documents under 100 characters:** 40
+- **Documents over 50,000 characters:** 1,191
+- **Minimum text length:** 7 characters
+- **Maximum text length:** 903,483 characters
+- **Average text length:** 3,198.41 characters
+- **Median text length:** 2,361 characters
+
+#### Key Findings
+
+- The corpus contains 801,998 technical documents.
+- All documents have unique identifiers, with no missing or duplicate IDs.
+- Only 2 documents contain empty text.
+- A small number of documents are unusually short or long.
+- The corpus contains IBM technical support information, including error descriptions, product issues, and troubleshooting content.
+- Long documents will require appropriate chunking during preprocessing to handle model input-length limitations.
+
+#### Conclusion
+
+The TechQA technical document corpus passed the initial integrity and quality checks. It is a promising resource for Domain-Adaptive Pretraining (DAPT), subject to further text cleaning and preprocessing.
+
+**Validation note:** This analysis covers the full 801,998-document corpus. The separate 50,000-document statistics are not included because they have not been reconciled with this full-corpus analysis.
