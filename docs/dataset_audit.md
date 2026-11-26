@@ -9,7 +9,7 @@
 - All files opened successfully; every file has a nonzero row count.
 - All inspected answer spans had valid bounds and exact context matches; no malformed answer structures were found.
 - SQuAD 2.0 contains both answerable and unanswerable examples. AdversarialQA train/validation contain answerable examples; every downloaded AdversarialQA test row has empty answer arrays.
-- TechQA has no downloaded Parquet files, so its train/dev/Technotes data cannot be audited.
+- TechQA is not in Parquet form, so it is not part of the 14-file count. It was obtained later (original release files under `data/raw/TechQA/`) and audited separately in the TechQA sections at the end of this document.
 
 ## File and split inventory
 
@@ -98,7 +98,7 @@ Across all downloaded files, **35,240 distinct question strings** occur in more 
 | SQuAD 2.0 | Suitable for supervised extractive QA and no-answer handling. | General-domain rather than technical-domain; only train/validation are available in these files. |
 | AdversarialQA train/validation | Structurally suitable for extractive QA: context, question, answer text and character start are present. | Model-specific configurations and cross-configuration overlap complicate independent-comparison claims. |
 | AdversarialQA test | Suitable for prediction-only/qualitative robustness checks. | Empty answer arrays in every downloaded test record prevent standard gold-span EM/F1 evaluation. |
-| TechQA | Not assessable. | Official source currently returns 404; no technical corpus, candidate Technotes, answer spans, or blind test set is present. |
+| TechQA | Suitable for extractive QA with no-answer handling: answers are character offsets into one of the candidate Technotes. | Only 600 train / 310 dev questions; long answers (median about 250 characters); long documents need chunking; 11 of 160 answerable dev spans do not exactly match their stored text; blind test set not public. |
 
 ## Visualizations
 
@@ -111,13 +111,13 @@ Across all downloaded files, **35,240 distinct question strings** occur in more 
 - The previously documented row counts, schemas, disk-size approximations, and zero malformed/bad-span findings agree with this audit.
 - The prior analysis described AdversarialQA test rows as “unanswerable/no-gold-answer”; this audit confirms the exact observable condition is empty answer arrays, not a semantic unanswerability label.
 - The prior analysis says “all four available configurations”; the actual configuration names verified on disk are `adversarialQA`, `dbert`, `dbidaf`, and `droberta`. There is no configuration literally named `bert`; `dbidaf` is the available BiDAF configuration.
-- TechQA remains unavailable and therefore has no verifiable split counts or schema.
+- `docs/dataset_analysis.md` originally reported TechQA as unavailable (HTTP 404). It has since been obtained and audited; both documents were updated on 2026-11-26.
 
 ## Recommendations
 
 1. Do not report AdversarialQA test EM/F1 unless an authorized answer key is obtained; use train/validation for scored robustness evaluation or explicitly label test results prediction-only.
 2. Keep AdversarialQA configurations separate in experiments and report overlap/deduplication policy.
-3. Obtain an authorized TechQA release before claiming technical-domain adaptation or technical-domain extractive QA results.
+3. Resolve the 11 mismatched TechQA dev answer spans during preprocessing, without modifying the original annotations, and exclude dev Technotes from any domain-adaptive pretraining text.
 4. Preserve these Parquet files as raw inputs and perform any normalization only into `data/processed/`.
 FOR TECHQA DATASET DETAILS 
 ### TechQA Development Answer Alignment Validation

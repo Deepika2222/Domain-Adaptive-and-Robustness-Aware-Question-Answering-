@@ -8,7 +8,7 @@ annotations were not transformed.
 
 | Dataset | Source | Status |
 |---|---|---|
-| IBM TechQA train/dev/Technotes | [IBM/techqa](https://github.com/IBM/techqa) | **Unavailable**: the official URL returned HTTP 404. No mirror, blind test set, or synthetic replacement was used. |
+| IBM TechQA train/dev/Technotes | PrimeQA/TechQA archive on Hugging Face (`TechQA.tar.gz`); the original [IBM/techqa](https://github.com/IBM/techqa) URL returned HTTP 404 | Downloaded (updated 2026-11-26) to `data/raw/TechQA/`; original release files, not Parquet. The blind test set is not public and is not included. |
 | SQuAD 2.0 | [rajpurkar/squad_v2](https://huggingface.co/datasets/rajpurkar/squad_v2) | Downloaded |
 | AdversarialQA | [UCLNLP/adversarial_qa](https://huggingface.co/datasets/UCLNLP/adversarial_qa) | Downloaded; all four available configurations |
 
@@ -58,13 +58,25 @@ context substring.
 
 ## TechQA assessment
 
-TechQA is therefore **not available locally**. The requested official source
-could not be downloaded, and the blind test set is explicitly not public.
-Consequently, candidate Technotes, TechQA answer spans, and answerability
-labels could not be inspected. TechQA cannot yet support this repository's
-extractive QA experiments or domain-adaptive pretraining. Once an authorized
-official release is obtained, it should be placed under
-`data/raw/techqa/{train,dev,technotes}/` and inspected before use.
+**Updated 2026-11-26.** The original IBM route returned HTTP 404 on
+2026-11-12, but the full release was later obtained from the PrimeQA/TechQA
+archive on Hugging Face and is stored locally at `data/raw/TechQA/`
+(CDLA-Permissive-1.0; kept out of Git). It contains:
+
+| Component | Location | Contents |
+|---|---|---|
+| Training questions | `training_and_dev/training_Q_A.json` | 600 questions, 450 answerable |
+| Development questions | `training_and_dev/dev_Q_A.json` | 310 questions, 160 answerable |
+| Train/dev Technotes | `training_and_dev/training_dev_technotes.json` | 28,482 candidate documents |
+| Validation sample | `validation/` | 20 questions with reference output and 995 Technotes |
+| Technote corpus | `technote_corpus/` | 801,998 documents (about 11 GB) for DAPT |
+
+Each question lists candidate `DOC_IDS`; answerable questions give the answer
+document and character offsets (`START_OFFSET`, `END_OFFSET`). Answers are
+long: the median answerable span is about 250 characters in both train and
+dev. The official test set is blind and not public, so the dev set is the
+held-out evaluation set. Dev-answer alignment checks and corpus statistics
+are in `docs/dataset_audit.md`.
 
 ## Comparability and research use
 
@@ -76,6 +88,7 @@ official release is obtained, it should be placed under
 - The empty AdversarialQA test answers make exact-match/F1 against gold spans
   impossible for those files without an authorized answer key. They can still
   be retained for prediction-only or qualitative robustness workflows.
-- No downloaded dataset supplies the requested technical-domain corpus.
-  Domain-adaptive pretraining and the technical-domain comparison must wait
-  for an authorized TechQA/Technotes release.
+- TechQA supplies the technical-domain QA data and the unlabeled Technote
+  corpus for domain-adaptive pretraining. Its 600 training questions make it
+  a naturally low-resource target; dev Technotes must be excluded from any
+  pretraining text to avoid leakage.

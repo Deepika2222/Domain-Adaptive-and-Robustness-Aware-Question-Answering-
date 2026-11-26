@@ -1,8 +1,32 @@
-# Dataset sources and split/preprocessing settings will be defined after
-# dataset selection and licensing review.
-dataset_name: null
+# Dataset sources and local paths. Split and preprocessing settings are still
+# to be finalized; see docs/dataset_analysis.md and docs/dataset_audit.md.
 domain: technical
-splits:
-  train: train
-  validation: validation
-  test: test
+
+datasets:
+  techqa:
+    role: technical_domain_target
+    path: data/raw/TechQA
+    format: techqa_json
+    train: training_and_dev/training_Q_A.json      # 600 questions, 450 answerable
+    dev: training_and_dev/dev_Q_A.json             # 310 questions, 160 answerable
+    technotes: training_and_dev/training_dev_technotes.json
+    dapt_corpus: technote_corpus/full_technote_collection.txt.bz2  # 801,998 documents
+    # The official test set is blind; no public test split is available.
+
+  squad_v2:
+    role: general_domain_source
+    path: data/raw/squad_v2
+    format: parquet
+    splits:
+      train: train
+      validation: validation
+
+  adversarial_qa:
+    role: adversarial_evaluation
+    path: data/raw/adversarial_qa
+    format: parquet
+    configs: [adversarialQA, dbert, dbidaf, droberta]
+    splits:
+      train: train
+      validation: validation
+      test: test   # answers are empty in every test record; not scoreable

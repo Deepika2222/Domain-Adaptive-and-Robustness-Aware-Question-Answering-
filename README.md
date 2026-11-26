@@ -47,7 +47,15 @@ Python, PyTorch, Hugging Face Transformers, Hugging Face Datasets, scikit-learn,
 
 ## Dataset selection status
 
-Dataset selection is **pending**. Candidate datasets will be assessed for extractive QA format, licensing, domain relevance, answer-span quality, and suitability for domain-adaptation and data-scarcity experiments. Datasets will not be committed to this repository.
+Three datasets are downloaded locally and audited. Datasets are not committed to this repository.
+
+| Dataset | Role | Local path |
+|---|---|---|
+| TechQA (IBM technical support) | Technical-domain QA target; its 801,998-document Technote corpus supports domain-adaptive pretraining | `data/raw/TechQA/` |
+| SQuAD 2.0 | General-domain extractive QA source, with unanswerable questions | `data/raw/squad_v2/` |
+| AdversarialQA | Adversarial robustness evaluation (`adversarialQA`, `dbert`, `dbidaf`, `droberta`) | `data/raw/adversarial_qa/` |
+
+See `docs/dataset_analysis.md` and `docs/dataset_audit.md` for counts, schemas and known issues.
 
 ## Experimental workflow
 
@@ -78,15 +86,15 @@ See `data/README.md` and the documentation files under `docs/` for more detail.
 ## Installation
 
 ```bash
-git clone https://github.com/VaibhavUPratap/Domain-Adaptive-and-Robustness-Aware-Question-Answering.git
-cd Domain-Adaptive-and-Robustness-Aware-Question-Answering
+git clone https://github.com/Deepika2222/Domain-Adaptive-and-Robustness-Aware-Question-Answering-.git
+cd Domain-Adaptive-and-Robustness-Aware-Question-Answering-
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-The repository currently contains structure and planning documentation only. Training, dataset downloads, and experiments are intentionally not implemented.
+The repository currently contains planning documentation, a dataset downloader (`data/download_datasets.py`) and dataset audit scripts (`scripts/`). Preprocessing, training and experiments are not implemented yet.
 
 ## Project progress
 
@@ -94,7 +102,7 @@ The repository currently contains structure and planning documentation only. Tra
 - [x] Establish repository structure
 - [x] Add initial configuration placeholders
 - [x] Add research documentation placeholders
-- [ ] Select and document datasets
+- [x] Select and document datasets
 - [ ] Implement preprocessing pipeline
 - [ ] Implement baseline QA experiments
 - [ ] Implement domain-adaptation experiments
