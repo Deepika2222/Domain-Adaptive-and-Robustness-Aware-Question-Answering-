@@ -1,5 +1,7 @@
 # Methodology
 
+> **Frozen direction (26 Nov 2026):** see [final_research_direction.md](final_research_direction.md). Where this file disagrees with it, the frozen direction wins.
+
 ## 1. Research design
 
 This project uses a **controlled empirical comparative design**. Selected BERT-family models will be evaluated on an extractive technical-domain QA task under baseline, domain-adaptation, data-scarcity and adversarial conditions.

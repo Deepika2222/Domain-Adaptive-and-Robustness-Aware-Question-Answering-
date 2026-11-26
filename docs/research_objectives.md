@@ -1,5 +1,7 @@
 # Research Objectives
 
+> **Frozen direction (26 Nov 2026):** see [final_research_direction.md](final_research_direction.md). Where this file disagrees with it, the frozen direction wins.
+
 ## Project title
 
 **Domain-Adaptive and Robustness-Aware Question Answering: A Comparative Study of Fine-Tuned BERT Variants Under Data-Scarce and Adversarial Conditions**

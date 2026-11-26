@@ -1,12 +1,16 @@
 # Research Questions
 
+> **Frozen direction (26 Nov 2026):** see [final_research_direction.md](final_research_direction.md). Where this file disagrees with it, the frozen direction wins.
+
 ## Project
 
 **Domain-Adaptive and Robustness-Aware Question Answering: A Comparative Study of Fine-Tuned BERT Variants Under Data-Scarce and Adversarial Conditions**
 
 ## Main research question
 
-**Under a controlled experimental protocol, how do selected BERT-family models differ in technical-domain extractive QA performance when labelled data is scarce, domain-adaptive pretraining is applied, and adversarial perturbations are introduced?**
+**How do different BERT-family models perform under domain adaptation, data scarcity and adversarial conditions in technical question answering?**
+
+Objective: identify which BERT-family model performs best under each condition and understand how the three conditions influence model performance.
 
 ## Primary research questions
 

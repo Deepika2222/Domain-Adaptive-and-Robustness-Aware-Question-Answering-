@@ -6,6 +6,8 @@ Research project: **Domain-Adaptive and Robustness-Aware Question Answering: A C
 
 This project studies extractive Question Answering (QA), where a model identifies an answer span in a supplied context. It compares BERT-family models under three controlled conditions: technical-domain adaptation, limited labelled data, and adversarially modified inputs.
 
+**Research question (frozen 26 Nov 2026):** How do different BERT-family models perform under domain adaptation, data scarcity and adversarial conditions in technical question answering? The USP is a model-wise comparative analysis across these three conditions. See [`docs/final_research_direction.md`](docs/final_research_direction.md).
+
 No experimental results are reported at this stage. Dataset selection, implementation, experiments, analysis, and paper writing remain in progress.
 
 ## Problem statement
