@@ -1,0 +1,11 @@
+{
+    "dataset": "SQuAD 2.0",
+    "random_seed": 42,
+    "subsets": {
+        "train_1_percent": 1303,
+        "train_5_percent": 6516,
+        "train_10_percent": 13032,
+        "validation": 11873
+    },
+    "created_at": "2026-11-27T13:51:07.144177"
+}
