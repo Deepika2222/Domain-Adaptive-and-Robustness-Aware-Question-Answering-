@@ -1,0 +1,36 @@
+{
+    "dataset": "AdversarialQA",
+    "role": "adversarial_evaluation",
+    "random_seed": 42,
+    "max_length": 384,
+    "doc_stride": 128,
+    "models": {
+        "bert": "bert-base-uncased",
+        "roberta": "roberta-base",
+        "deberta": "microsoft/deberta-v3-base",
+        "distilbert": "distilbert-base-uncased"
+    },
+    "configs": {
+        "dbidaf": "adversary: BiDAF",
+        "dbert": "adversary: BERT-Large",
+        "droberta": "adversary: RoBERTa-Large",
+        "combined": "dbidaf + dbert + droberta (same IDs as the adversarialQA config)"
+    },
+    "splits": {
+        "dbidaf/train": 10000,
+        "dbidaf/validation": 1000,
+        "dbert/train": 10000,
+        "dbert/validation": 1000,
+        "droberta/train": 10000,
+        "droberta/validation": 1000,
+        "combined/train": 30000,
+        "combined/validation": 3000
+    },
+    "excluded": {
+        "test": "no gold answers in any test record; not scoreable"
+    },
+    "tokenized_splits": [
+        "validation"
+    ],
+    "created_at": "2026-11-27T22:15:37.399941"
+}
