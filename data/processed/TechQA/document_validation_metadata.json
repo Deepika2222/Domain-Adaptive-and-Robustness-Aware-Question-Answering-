@@ -1,0 +1,18 @@
+[
+    {
+        "metric":"Total corpus records parsed",
+        "value":801996
+    },
+    {
+        "metric":"Unique required document IDs",
+        "value":496
+    },
+    {
+        "metric":"Documents matched",
+        "value":496
+    },
+    {
+        "metric":"Documents missing",
+        "value":0
+    }
+]

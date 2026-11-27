@@ -1,0 +1,34 @@
+{
+    "step": 15,
+    "description": "Final TechQA preprocessing integration and handoff",
+    "train": {
+        "split": "train",
+        "total_records": 600,
+        "answerable_records": 450,
+        "documents_found": 450,
+        "documents_missing": 0,
+        "unanswerable_records": 150
+    },
+    "development": {
+        "split": "development",
+        "total_records": 310,
+        "answerable_records": 160,
+        "documents_found": 160,
+        "documents_missing": 0,
+        "unanswerable_records": 150
+    },
+    "matched_document_count": 496,
+    "train_offset_validation": {
+        "Valid": 250,
+        "Text mismatch": 184,
+        "Document missing": 150,
+        "Out of range": 16
+    },
+    "development_offset_validation": {
+        "Document missing": 150,
+        "Valid": 84,
+        "Text mismatch": 70,
+        "Out of range": 4,
+        "Answer missing": 2
+    }
+}

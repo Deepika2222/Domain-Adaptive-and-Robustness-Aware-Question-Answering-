@@ -1,0 +1,15 @@
+{
+    "dataset": "TechQA",
+    "training_records": 600,
+    "development_records": 310,
+    "documents_loaded": 776,
+    "training_span_status": {
+        "Document not found": 450,
+        "Unanswerable": 150
+    },
+    "development_span_status": {
+        "Document not found": 160,
+        "Unanswerable": 150
+    },
+    "raw_data_modified": false
+}

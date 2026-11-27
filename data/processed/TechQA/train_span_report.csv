@@ -1,0 +1,601 @@
+QUESTION_ID,SPAN_STATUS
+TRAIN_Q000,Document not found
+TRAIN_Q001,Document not found
+TRAIN_Q002,Unanswerable
+TRAIN_Q003,Document not found
+TRAIN_Q004,Unanswerable
+TRAIN_Q005,Document not found
+TRAIN_Q006,Document not found
+TRAIN_Q007,Document not found
+TRAIN_Q008,Document not found
+TRAIN_Q009,Document not found
+TRAIN_Q010,Document not found
+TRAIN_Q011,Document not found
+TRAIN_Q012,Document not found
+TRAIN_Q013,Document not found
+TRAIN_Q014,Document not found
+TRAIN_Q015,Document not found
+TRAIN_Q016,Document not found
+TRAIN_Q017,Document not found
+TRAIN_Q018,Document not found
+TRAIN_Q019,Document not found
+TRAIN_Q020,Document not found
+TRAIN_Q021,Unanswerable
+TRAIN_Q022,Unanswerable
+TRAIN_Q023,Unanswerable
+TRAIN_Q024,Document not found
+TRAIN_Q025,Unanswerable
+TRAIN_Q026,Document not found
+TRAIN_Q027,Document not found
+TRAIN_Q028,Document not found
+TRAIN_Q029,Document not found
+TRAIN_Q030,Document not found
+TRAIN_Q031,Document not found
+TRAIN_Q032,Unanswerable
+TRAIN_Q033,Document not found
+TRAIN_Q034,Document not found
+TRAIN_Q035,Unanswerable
+TRAIN_Q036,Unanswerable
+TRAIN_Q037,Document not found
+TRAIN_Q038,Document not found
+TRAIN_Q039,Document not found
+TRAIN_Q040,Document not found
+TRAIN_Q041,Document not found
+TRAIN_Q042,Document not found
+TRAIN_Q043,Document not found
+TRAIN_Q044,Document not found
+TRAIN_Q045,Document not found
+TRAIN_Q046,Document not found
+TRAIN_Q047,Document not found
+TRAIN_Q048,Document not found
+TRAIN_Q049,Document not found
+TRAIN_Q050,Document not found
+TRAIN_Q051,Unanswerable
+TRAIN_Q052,Document not found
+TRAIN_Q053,Document not found
+TRAIN_Q054,Document not found
+TRAIN_Q055,Document not found
+TRAIN_Q056,Document not found
+TRAIN_Q057,Unanswerable
+TRAIN_Q058,Document not found
+TRAIN_Q059,Document not found
+TRAIN_Q060,Document not found
+TRAIN_Q061,Unanswerable
+TRAIN_Q062,Document not found
+TRAIN_Q063,Document not found
+TRAIN_Q064,Document not found
+TRAIN_Q065,Document not found
+TRAIN_Q066,Document not found
+TRAIN_Q067,Document not found
+TRAIN_Q068,Document not found
+TRAIN_Q069,Document not found
+TRAIN_Q070,Document not found
+TRAIN_Q071,Document not found
+TRAIN_Q072,Document not found
+TRAIN_Q073,Document not found
+TRAIN_Q074,Unanswerable
+TRAIN_Q075,Document not found
+TRAIN_Q076,Document not found
+TRAIN_Q077,Unanswerable
+TRAIN_Q078,Unanswerable
+TRAIN_Q079,Unanswerable
+TRAIN_Q080,Document not found
+TRAIN_Q081,Document not found
+TRAIN_Q082,Document not found
+TRAIN_Q083,Document not found
+TRAIN_Q084,Document not found
+TRAIN_Q085,Document not found
+TRAIN_Q086,Unanswerable
+TRAIN_Q087,Document not found
+TRAIN_Q088,Unanswerable
+TRAIN_Q089,Document not found
+TRAIN_Q090,Document not found
+TRAIN_Q091,Document not found
+TRAIN_Q092,Document not found
+TRAIN_Q093,Document not found
+TRAIN_Q094,Unanswerable
+TRAIN_Q095,Unanswerable
+TRAIN_Q096,Unanswerable
+TRAIN_Q097,Document not found
+TRAIN_Q098,Document not found
+TRAIN_Q099,Unanswerable
+TRAIN_Q100,Document not found
+TRAIN_Q101,Document not found
+TRAIN_Q102,Unanswerable
+TRAIN_Q103,Document not found
+TRAIN_Q104,Document not found
+TRAIN_Q105,Unanswerable
+TRAIN_Q106,Document not found
+TRAIN_Q107,Document not found
+TRAIN_Q108,Document not found
+TRAIN_Q109,Document not found
+TRAIN_Q110,Document not found
+TRAIN_Q111,Document not found
+TRAIN_Q112,Document not found
+TRAIN_Q113,Document not found
+TRAIN_Q114,Document not found
+TRAIN_Q115,Unanswerable
+TRAIN_Q116,Document not found
+TRAIN_Q117,Document not found
+TRAIN_Q118,Document not found
+TRAIN_Q119,Unanswerable
+TRAIN_Q120,Document not found
+TRAIN_Q121,Document not found
+TRAIN_Q122,Document not found
+TRAIN_Q123,Document not found
+TRAIN_Q124,Document not found
+TRAIN_Q125,Document not found
+TRAIN_Q126,Document not found
+TRAIN_Q127,Document not found
+TRAIN_Q128,Document not found
+TRAIN_Q129,Document not found
+TRAIN_Q130,Document not found
+TRAIN_Q131,Document not found
+TRAIN_Q132,Document not found
+TRAIN_Q133,Unanswerable
+TRAIN_Q134,Document not found
+TRAIN_Q135,Document not found
+TRAIN_Q136,Document not found
+TRAIN_Q137,Document not found
+TRAIN_Q138,Unanswerable
+TRAIN_Q139,Document not found
+TRAIN_Q140,Document not found
+TRAIN_Q141,Document not found
+TRAIN_Q142,Unanswerable
+TRAIN_Q143,Unanswerable
+TRAIN_Q144,Document not found
+TRAIN_Q145,Document not found
+TRAIN_Q146,Unanswerable
+TRAIN_Q147,Unanswerable
+TRAIN_Q148,Unanswerable
+TRAIN_Q149,Unanswerable
+TRAIN_Q150,Document not found
+TRAIN_Q151,Document not found
+TRAIN_Q152,Document not found
+TRAIN_Q153,Unanswerable
+TRAIN_Q154,Document not found
+TRAIN_Q155,Document not found
+TRAIN_Q156,Unanswerable
+TRAIN_Q157,Unanswerable
+TRAIN_Q158,Document not found
+TRAIN_Q159,Document not found
+TRAIN_Q160,Document not found
+TRAIN_Q161,Document not found
+TRAIN_Q162,Document not found
+TRAIN_Q163,Document not found
+TRAIN_Q164,Unanswerable
+TRAIN_Q165,Document not found
+TRAIN_Q166,Document not found
+TRAIN_Q167,Unanswerable
+TRAIN_Q168,Document not found
+TRAIN_Q169,Unanswerable
+TRAIN_Q170,Document not found
+TRAIN_Q171,Document not found
+TRAIN_Q172,Document not found
+TRAIN_Q173,Unanswerable
+TRAIN_Q174,Document not found
+TRAIN_Q175,Unanswerable
+TRAIN_Q176,Unanswerable
+TRAIN_Q177,Unanswerable
+TRAIN_Q178,Document not found
+TRAIN_Q179,Unanswerable
+TRAIN_Q180,Unanswerable
+TRAIN_Q181,Unanswerable
+TRAIN_Q182,Document not found
+TRAIN_Q183,Document not found
+TRAIN_Q184,Document not found
+TRAIN_Q185,Unanswerable
+TRAIN_Q186,Document not found
+TRAIN_Q187,Document not found
+TRAIN_Q188,Document not found
+TRAIN_Q189,Document not found
+TRAIN_Q190,Document not found
+TRAIN_Q191,Unanswerable
+TRAIN_Q192,Unanswerable
+TRAIN_Q193,Document not found
+TRAIN_Q194,Document not found
+TRAIN_Q195,Document not found
+TRAIN_Q196,Unanswerable
+TRAIN_Q197,Unanswerable
+TRAIN_Q198,Document not found
+TRAIN_Q199,Document not found
+TRAIN_Q200,Unanswerable
+TRAIN_Q201,Document not found
+TRAIN_Q202,Document not found
+TRAIN_Q203,Document not found
+TRAIN_Q204,Document not found
+TRAIN_Q205,Document not found
+TRAIN_Q206,Document not found
+TRAIN_Q207,Document not found
+TRAIN_Q208,Document not found
+TRAIN_Q209,Document not found
+TRAIN_Q210,Document not found
+TRAIN_Q211,Unanswerable
+TRAIN_Q212,Document not found
+TRAIN_Q213,Unanswerable
+TRAIN_Q214,Document not found
+TRAIN_Q215,Document not found
+TRAIN_Q216,Document not found
+TRAIN_Q217,Document not found
+TRAIN_Q218,Unanswerable
+TRAIN_Q219,Document not found
+TRAIN_Q220,Unanswerable
+TRAIN_Q221,Document not found
+TRAIN_Q222,Document not found
+TRAIN_Q223,Document not found
+TRAIN_Q224,Document not found
+TRAIN_Q225,Document not found
+TRAIN_Q226,Document not found
+TRAIN_Q227,Document not found
+TRAIN_Q228,Document not found
+TRAIN_Q229,Unanswerable
+TRAIN_Q230,Document not found
+TRAIN_Q231,Document not found
+TRAIN_Q232,Document not found
+TRAIN_Q233,Document not found
+TRAIN_Q234,Document not found
+TRAIN_Q235,Document not found
+TRAIN_Q236,Document not found
+TRAIN_Q237,Document not found
+TRAIN_Q238,Unanswerable
+TRAIN_Q239,Document not found
+TRAIN_Q240,Document not found
+TRAIN_Q241,Document not found
+TRAIN_Q242,Document not found
+TRAIN_Q243,Document not found
+TRAIN_Q244,Document not found
+TRAIN_Q245,Unanswerable
+TRAIN_Q246,Unanswerable
+TRAIN_Q247,Document not found
+TRAIN_Q248,Document not found
+TRAIN_Q249,Unanswerable
+TRAIN_Q250,Document not found
+TRAIN_Q251,Unanswerable
+TRAIN_Q252,Document not found
+TRAIN_Q253,Unanswerable
+TRAIN_Q254,Document not found
+TRAIN_Q255,Document not found
+TRAIN_Q256,Document not found
+TRAIN_Q257,Unanswerable
+TRAIN_Q258,Document not found
+TRAIN_Q259,Document not found
+TRAIN_Q260,Document not found
+TRAIN_Q261,Document not found
+TRAIN_Q262,Document not found
+TRAIN_Q263,Document not found
+TRAIN_Q264,Unanswerable
+TRAIN_Q265,Unanswerable
+TRAIN_Q266,Document not found
+TRAIN_Q267,Document not found
+TRAIN_Q268,Unanswerable
+TRAIN_Q269,Document not found
+TRAIN_Q270,Document not found
+TRAIN_Q271,Unanswerable
+TRAIN_Q272,Document not found
+TRAIN_Q273,Unanswerable
+TRAIN_Q274,Document not found
+TRAIN_Q275,Unanswerable
+TRAIN_Q276,Document not found
+TRAIN_Q277,Document not found
+TRAIN_Q278,Document not found
+TRAIN_Q279,Document not found
+TRAIN_Q280,Document not found
+TRAIN_Q281,Unanswerable
+TRAIN_Q282,Unanswerable
+TRAIN_Q283,Document not found
+TRAIN_Q284,Unanswerable
+TRAIN_Q285,Document not found
+TRAIN_Q286,Document not found
+TRAIN_Q287,Document not found
+TRAIN_Q288,Document not found
+TRAIN_Q289,Unanswerable
+TRAIN_Q290,Unanswerable
+TRAIN_Q291,Document not found
+TRAIN_Q292,Unanswerable
+TRAIN_Q293,Unanswerable
+TRAIN_Q294,Document not found
+TRAIN_Q295,Document not found
+TRAIN_Q296,Document not found
+TRAIN_Q297,Document not found
+TRAIN_Q298,Document not found
+TRAIN_Q299,Document not found
+TRAIN_Q300,Document not found
+TRAIN_Q301,Document not found
+TRAIN_Q302,Document not found
+TRAIN_Q303,Document not found
+TRAIN_Q304,Document not found
+TRAIN_Q305,Document not found
+TRAIN_Q306,Document not found
+TRAIN_Q307,Document not found
+TRAIN_Q308,Unanswerable
+TRAIN_Q309,Unanswerable
+TRAIN_Q310,Document not found
+TRAIN_Q311,Unanswerable
+TRAIN_Q312,Document not found
+TRAIN_Q313,Unanswerable
+TRAIN_Q314,Document not found
+TRAIN_Q315,Unanswerable
+TRAIN_Q316,Document not found
+TRAIN_Q317,Unanswerable
+TRAIN_Q318,Document not found
+TRAIN_Q319,Document not found
+TRAIN_Q320,Document not found
+TRAIN_Q321,Document not found
+TRAIN_Q322,Document not found
+TRAIN_Q323,Unanswerable
+TRAIN_Q324,Document not found
+TRAIN_Q325,Unanswerable
+TRAIN_Q326,Unanswerable
+TRAIN_Q327,Unanswerable
+TRAIN_Q328,Document not found
+TRAIN_Q329,Unanswerable
+TRAIN_Q330,Document not found
+TRAIN_Q331,Document not found
+TRAIN_Q332,Document not found
+TRAIN_Q333,Document not found
+TRAIN_Q334,Document not found
+TRAIN_Q335,Unanswerable
+TRAIN_Q336,Document not found
+TRAIN_Q337,Document not found
+TRAIN_Q338,Document not found
+TRAIN_Q339,Document not found
+TRAIN_Q340,Document not found
+TRAIN_Q341,Document not found
+TRAIN_Q342,Unanswerable
+TRAIN_Q343,Document not found
+TRAIN_Q344,Unanswerable
+TRAIN_Q345,Document not found
+TRAIN_Q346,Document not found
+TRAIN_Q347,Document not found
+TRAIN_Q348,Document not found
+TRAIN_Q349,Document not found
+TRAIN_Q350,Document not found
+TRAIN_Q351,Document not found
+TRAIN_Q352,Document not found
+TRAIN_Q353,Document not found
+TRAIN_Q354,Unanswerable
+TRAIN_Q355,Document not found
+TRAIN_Q356,Unanswerable
+TRAIN_Q357,Document not found
+TRAIN_Q358,Document not found
+TRAIN_Q359,Document not found
+TRAIN_Q360,Document not found
+TRAIN_Q361,Document not found
+TRAIN_Q362,Document not found
+TRAIN_Q363,Document not found
+TRAIN_Q364,Unanswerable
+TRAIN_Q365,Document not found
+TRAIN_Q366,Document not found
+TRAIN_Q367,Document not found
+TRAIN_Q368,Document not found
+TRAIN_Q369,Document not found
+TRAIN_Q370,Unanswerable
+TRAIN_Q371,Document not found
+TRAIN_Q372,Document not found
+TRAIN_Q373,Document not found
+TRAIN_Q374,Document not found
+TRAIN_Q375,Document not found
+TRAIN_Q376,Document not found
+TRAIN_Q377,Unanswerable
+TRAIN_Q378,Document not found
+TRAIN_Q379,Document not found
+TRAIN_Q380,Document not found
+TRAIN_Q381,Unanswerable
+TRAIN_Q382,Document not found
+TRAIN_Q383,Document not found
+TRAIN_Q384,Document not found
+TRAIN_Q385,Unanswerable
+TRAIN_Q386,Document not found
+TRAIN_Q387,Document not found
+TRAIN_Q388,Document not found
+TRAIN_Q389,Document not found
+TRAIN_Q390,Document not found
+TRAIN_Q391,Document not found
+TRAIN_Q392,Unanswerable
+TRAIN_Q393,Document not found
+TRAIN_Q394,Document not found
+TRAIN_Q395,Document not found
+TRAIN_Q396,Document not found
+TRAIN_Q397,Document not found
+TRAIN_Q398,Document not found
+TRAIN_Q399,Document not found
+TRAIN_Q400,Document not found
+TRAIN_Q401,Document not found
+TRAIN_Q402,Document not found
+TRAIN_Q403,Document not found
+TRAIN_Q404,Unanswerable
+TRAIN_Q405,Unanswerable
+TRAIN_Q406,Document not found
+TRAIN_Q407,Unanswerable
+TRAIN_Q408,Unanswerable
+TRAIN_Q409,Unanswerable
+TRAIN_Q410,Unanswerable
+TRAIN_Q411,Document not found
+TRAIN_Q412,Unanswerable
+TRAIN_Q413,Document not found
+TRAIN_Q414,Document not found
+TRAIN_Q415,Document not found
+TRAIN_Q416,Document not found
+TRAIN_Q417,Document not found
+TRAIN_Q418,Unanswerable
+TRAIN_Q419,Unanswerable
+TRAIN_Q420,Unanswerable
+TRAIN_Q421,Document not found
+TRAIN_Q422,Document not found
+TRAIN_Q423,Document not found
+TRAIN_Q424,Document not found
+TRAIN_Q425,Document not found
+TRAIN_Q426,Document not found
+TRAIN_Q427,Document not found
+TRAIN_Q428,Document not found
+TRAIN_Q429,Document not found
+TRAIN_Q430,Document not found
+TRAIN_Q431,Document not found
+TRAIN_Q432,Unanswerable
+TRAIN_Q433,Document not found
+TRAIN_Q434,Unanswerable
+TRAIN_Q435,Unanswerable
+TRAIN_Q436,Unanswerable
+TRAIN_Q437,Document not found
+TRAIN_Q438,Document not found
+TRAIN_Q439,Document not found
+TRAIN_Q440,Document not found
+TRAIN_Q441,Document not found
+TRAIN_Q442,Document not found
+TRAIN_Q443,Document not found
+TRAIN_Q444,Document not found
+TRAIN_Q445,Document not found
+TRAIN_Q446,Document not found
+TRAIN_Q447,Unanswerable
+TRAIN_Q448,Document not found
+TRAIN_Q449,Document not found
+TRAIN_Q450,Document not found
+TRAIN_Q451,Document not found
+TRAIN_Q452,Document not found
+TRAIN_Q453,Document not found
+TRAIN_Q454,Document not found
+TRAIN_Q455,Document not found
+TRAIN_Q456,Document not found
+TRAIN_Q457,Document not found
+TRAIN_Q458,Document not found
+TRAIN_Q459,Unanswerable
+TRAIN_Q460,Document not found
+TRAIN_Q461,Document not found
+TRAIN_Q462,Document not found
+TRAIN_Q463,Document not found
+TRAIN_Q464,Unanswerable
+TRAIN_Q465,Document not found
+TRAIN_Q466,Document not found
+TRAIN_Q467,Document not found
+TRAIN_Q468,Unanswerable
+TRAIN_Q469,Document not found
+TRAIN_Q470,Document not found
+TRAIN_Q471,Document not found
+TRAIN_Q472,Document not found
+TRAIN_Q473,Document not found
+TRAIN_Q474,Unanswerable
+TRAIN_Q475,Document not found
+TRAIN_Q476,Unanswerable
+TRAIN_Q477,Document not found
+TRAIN_Q478,Document not found
+TRAIN_Q479,Unanswerable
+TRAIN_Q480,Unanswerable
+TRAIN_Q481,Unanswerable
+TRAIN_Q482,Document not found
+TRAIN_Q483,Document not found
+TRAIN_Q484,Unanswerable
+TRAIN_Q485,Unanswerable
+TRAIN_Q486,Unanswerable
+TRAIN_Q487,Unanswerable
+TRAIN_Q488,Document not found
+TRAIN_Q489,Document not found
+TRAIN_Q490,Document not found
+TRAIN_Q491,Unanswerable
+TRAIN_Q492,Document not found
+TRAIN_Q493,Document not found
+TRAIN_Q494,Document not found
+TRAIN_Q495,Document not found
+TRAIN_Q496,Document not found
+TRAIN_Q497,Document not found
+TRAIN_Q498,Unanswerable
+TRAIN_Q499,Document not found
+TRAIN_Q500,Document not found
+TRAIN_Q501,Document not found
+TRAIN_Q502,Unanswerable
+TRAIN_Q503,Document not found
+TRAIN_Q504,Document not found
+TRAIN_Q505,Document not found
+TRAIN_Q506,Unanswerable
+TRAIN_Q507,Document not found
+TRAIN_Q508,Unanswerable
+TRAIN_Q509,Unanswerable
+TRAIN_Q510,Unanswerable
+TRAIN_Q511,Document not found
+TRAIN_Q512,Document not found
+TRAIN_Q513,Document not found
+TRAIN_Q514,Document not found
+TRAIN_Q515,Document not found
+TRAIN_Q516,Document not found
+TRAIN_Q517,Document not found
+TRAIN_Q518,Document not found
+TRAIN_Q519,Document not found
+TRAIN_Q520,Document not found
+TRAIN_Q521,Document not found
+TRAIN_Q522,Document not found
+TRAIN_Q523,Document not found
+TRAIN_Q524,Document not found
+TRAIN_Q525,Document not found
+TRAIN_Q526,Document not found
+TRAIN_Q527,Unanswerable
+TRAIN_Q528,Document not found
+TRAIN_Q529,Unanswerable
+TRAIN_Q530,Unanswerable
+TRAIN_Q531,Unanswerable
+TRAIN_Q532,Unanswerable
+TRAIN_Q533,Document not found
+TRAIN_Q534,Unanswerable
+TRAIN_Q535,Document not found
+TRAIN_Q536,Unanswerable
+TRAIN_Q537,Document not found
+TRAIN_Q538,Document not found
+TRAIN_Q539,Unanswerable
+TRAIN_Q540,Document not found
+TRAIN_Q541,Document not found
+TRAIN_Q542,Unanswerable
+TRAIN_Q543,Document not found
+TRAIN_Q544,Document not found
+TRAIN_Q545,Document not found
+TRAIN_Q546,Document not found
+TRAIN_Q547,Document not found
+TRAIN_Q548,Document not found
+TRAIN_Q549,Document not found
+TRAIN_Q550,Document not found
+TRAIN_Q551,Unanswerable
+TRAIN_Q552,Document not found
+TRAIN_Q553,Document not found
+TRAIN_Q554,Document not found
+TRAIN_Q555,Document not found
+TRAIN_Q556,Document not found
+TRAIN_Q557,Document not found
+TRAIN_Q558,Unanswerable
+TRAIN_Q559,Document not found
+TRAIN_Q560,Document not found
+TRAIN_Q561,Document not found
+TRAIN_Q562,Document not found
+TRAIN_Q563,Unanswerable
+TRAIN_Q564,Document not found
+TRAIN_Q565,Document not found
+TRAIN_Q566,Unanswerable
+TRAIN_Q567,Document not found
+TRAIN_Q568,Document not found
+TRAIN_Q569,Document not found
+TRAIN_Q570,Document not found
+TRAIN_Q571,Unanswerable
+TRAIN_Q572,Document not found
+TRAIN_Q573,Document not found
+TRAIN_Q574,Document not found
+TRAIN_Q575,Document not found
+TRAIN_Q576,Document not found
+TRAIN_Q577,Document not found
+TRAIN_Q578,Document not found
+TRAIN_Q579,Document not found
+TRAIN_Q580,Document not found
+TRAIN_Q581,Document not found
+TRAIN_Q582,Document not found
+TRAIN_Q583,Document not found
+TRAIN_Q584,Document not found
+TRAIN_Q585,Document not found
+TRAIN_Q586,Document not found
+TRAIN_Q587,Document not found
+TRAIN_Q588,Document not found
+TRAIN_Q589,Document not found
+TRAIN_Q590,Document not found
+TRAIN_Q591,Unanswerable
+TRAIN_Q592,Document not found
+TRAIN_Q593,Document not found
+TRAIN_Q594,Unanswerable
+TRAIN_Q595,Document not found
+TRAIN_Q596,Document not found
+TRAIN_Q597,Document not found
+TRAIN_Q598,Document not found
+TRAIN_Q599,Document not found
