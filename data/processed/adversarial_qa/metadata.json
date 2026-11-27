@@ -16,6 +16,20 @@
         "droberta": "adversary: RoBERTa-Large",
         "combined": "dbidaf + dbert + droberta (same IDs as the adversarialQA config)"
     },
+    "few_shot": {
+        "source": "combined/train",
+        "fractions": [
+            0.01,
+            0.05,
+            0.1
+        ],
+        "stratified_by": "adversary",
+        "nested": true,
+        "deduplicated_ids": "first copy kept for the 35 IDs shared by two adversaries"
+    },
+    "known_issues": {
+        "combined/train": "35 IDs appear in two adversary configs (same question and context; 10 with different answers), as in the original adversarialQA config"
+    },
     "splits": {
         "dbidaf/train": 10000,
         "dbidaf/validation": 1000,
@@ -24,13 +38,17 @@
         "droberta/train": 10000,
         "droberta/validation": 1000,
         "combined/train": 30000,
-        "combined/validation": 3000
+        "combined/validation": 3000,
+        "few_shot/train_1_percent": 300,
+        "few_shot/train_5_percent": 1498,
+        "few_shot/train_10_percent": 2997
     },
     "excluded": {
         "test": "no gold answers in any test record; not scoreable"
     },
-    "tokenized_splits": [
-        "validation"
+    "tokenized": [
+        "{config}_validation for every config",
+        "few-shot train subsets"
     ],
-    "created_at": "2026-11-27T22:15:37.399941"
+    "created_at": "2026-11-27T22:48:43.869806"
 }
