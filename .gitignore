@@ -6,5 +6,12 @@
 data/raw/TechQA/
 data/raw/techqa/
 
+# Processed datasets (top-level and notebook subdirectories)
 # Processed datasets
-data/processed/
+# Keep generated processed datasets tracked in Git
+
+# Python artifacts and checkpoints
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
