@@ -15,3 +15,6 @@ data/raw/techqa/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Trained model checkpoints and weights
+models/
